@@ -1,0 +1,57 @@
+.btn {
+	@apply border border-yellow rounded-3xl w-20 h-7 min-w-20 min-h-7 relative cursor-pointer overflow-hidden backdrop-blur-[1px];
+	backdrop-filter: blur(1px);
+	-webkit-backdrop-filter: blur(1px);
+
+	.slider {
+		@apply relative h-full w-full;
+
+		.el {
+			@apply flex justify-center items-center h-full w-full text-yellow;
+			transform-style: preserve-3d;
+			transform-origin: right left;
+
+			&:nth-of-type(2) {
+				@apply absolute inset-0 text-background;
+				transform: rotateY(0deg);
+				transform-origin: left right;
+
+				.bg {
+					@apply bg-yellow w-full h-full;
+				}
+			}
+
+			&:hover {
+				.perspectiveText {
+					transform: rotateX(90deg);
+
+					p:nth-of-type(1) {
+						@apply opacity-0;
+						transform: translateY(-100%);
+					}
+					p:nth-of-type(2) {
+						@apply opacity-100;
+					}
+				}
+			}
+		}
+	}
+}
+
+.perspectiveText {
+	@apply w-full h-full flex items-center justify-center;
+
+	transition: all 700ms ease-in-out;
+	transform-style: preserve-3d;
+
+	p {
+		&:nth-of-type(2) {
+			@apply absolute opacity-0;
+
+			transform: rotateX(-90deg) translateY(8px);
+			transform-origin: bottom center;
+		}
+
+		transition: all 700ms ease-in-out;
+	}
+}

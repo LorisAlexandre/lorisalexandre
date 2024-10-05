@@ -2,26 +2,121 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+@layer base {
+	:root {
+		--background: 255 255 255;
+		--foreground: 7 9 15;
+		--card: 255 255 255;
+		--card-foreground: 7 9 15;
+		--popover: 255 255 255;
+		--popover-foreground: 7 9 15;
+
+		--primary: 230 230 250;
+		--primary-dark: 159 154 235;
+		--primary-foreground: 249 250 251;
+
+		--yellow: 255 209 81;
+		--yellow-light: 255 233 136;
+
+		--secondary: 243 244 246;
+		--secondary-foreground: 17 24 39;
+		--muted: 243 244 246;
+		--muted-foreground: 107 114 128;
+		--accent: 243 244 246;
+		--accent-foreground: 17 24 39;
+		--destructive: 239 68 68;
+		--destructive-foreground: 249 250 251;
+		--border: 229 231 235;
+		--input: 229 231 235;
+		--ring: 124 58 237;
+		--radius: 0rem;
+		--chart-1: 231 110 80;
+		--chart-2: 42 157 144;
+		--chart-3: 39 71 84;
+		--chart-4: 232 196 104;
+		--chart-5: 244 164 98;
+	}
+
+	.dark {
+		--background: 7 9 15;
+		--foreground: 249 250 251;
+		--card: 7 9 15;
+		--card-foreground: 249 250 251;
+		--popover: 7 9 15;
+		--popover-foreground: 249 250 251;
+
+		--primary: 230 230 250;
+		--primary-dark: 159 154 235;
+
+		--primary-foreground: 249 250 251;
+		--secondary: 31 41 55;
+		--secondary-foreground: 249 250 251;
+		--muted: 31 41 55;
+		--muted-foreground: 156 163 175;
+		--accent: 31 41 55;
+		--accent-foreground: 249 250 251;
+		--destructive: 127 29 29;
+		--destructive-foreground: 249 250 251;
+		--border: 31 41 55;
+		--input: 31 41 55;
+		--ring: 109 40 217;
+		--chart-1: 38 98 217;
+		--chart-2: 46 184 138;
+		--chart-3: 232 140 48;
+		--chart-4: 175 87 219;
+		--chart-5: 226 54 112;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+}
+
+body {
+	background-image: linear-gradient(
+			rgb(var(--primary-dark) / 20%) 1.25px,
+			transparent 1.25px
+		),
+		linear-gradient(
+			to right,
+			rgb(var(--primary-dark) / 20%) 1.25px,
+			transparent 1.25px
+		);
+	background-size: 58px 58px;
+}
+
+html.lenis,
+html.lenis body {
+	height: auto;
+}
+
+.lenis.lenis-smooth {
+	scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+	overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+	overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+	pointer-events: none;
 }

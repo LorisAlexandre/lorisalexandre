@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Présentation des fonctionnalités de mon site web
 
-## Getting Started
+Bienvenue sur mon site web vitrine ! Voici un aperçu des principales fonctionnalités que je propose.
 
-First, run the development server:
+## Fonctionnalités
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Vitrine Élégante
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mon site est conçu pour présenter mes projets et mes compétences de manière élégante et professionnelle. Chaque section est soigneusement conçue pour offrir une expérience utilisateur agréable.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Formulaire de Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vous pouvez facilement me contacter via un formulaire de contact intégré. Il vous suffit de remplir vos informations et d'envoyer votre message. Je serai ravi de vous répondre !
 
-## Learn More
+- **Champs disponibles :**
+  - Nom
+  - Adresse e-mail
+  - Objet
+  - Message
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Stack Technologique
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Mon site est développé en utilisant **Next.js**, ce qui me permet d'offrir une expérience de navigation rapide et fluide. La structure fullstack me permet de gérer à la fois le front-end et le back-end efficacement.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Comment ça fonctionne ?
 
-## Deploy on Vercel
+Le formulaire de contact est configuré pour envoyer vos messages directement à mon adresse e-mail. Cela me permet de répondre rapidement à toutes vos demandes et questions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Merci de visiter mon site ! N'hésitez pas à me contacter si vous avez des questions ou des commentaires.
