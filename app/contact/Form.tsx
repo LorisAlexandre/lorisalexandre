@@ -29,7 +29,7 @@ export const Form = () => {
 					<CardTitle className="font-brico">
 						Ton idée, mon expertise - ensemble, tout est possible !
 					</CardTitle>
-					<Image src={""} alt="" className="size-10 rounded-full bg-primary" />
+					<Image src={""} alt="" className="aspect-square size-10 rounded-full bg-primary" />
 				</div>
 				<CardDescription className="font-mono">
 					Développe des sites web uniques et sur-mesure, alliant design moderne
