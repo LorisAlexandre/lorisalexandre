@@ -58,7 +58,7 @@ export async function sendRequest(
 			}),
 		});
 	} catch (error) {
-		console.log(error);
+		console.log("Error from send", error);
 
 		return {
 			success: false,

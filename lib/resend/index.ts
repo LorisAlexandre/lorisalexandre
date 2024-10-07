@@ -21,5 +21,7 @@ export async function send({
 		react,
 	});
 
-	throw new Error(JSON.stringify(error));
+	if (error) {
+		throw new Error(JSON.stringify(error));
+	}
 }
