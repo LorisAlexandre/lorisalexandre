@@ -81,7 +81,7 @@ export default function RootLayout({
 		<html lang="fr">
 			<body
 				className={cn(
-					"min-h-screen antialiased overflow-clip",
+					"min-h-screen antialiased overflow-x-clip",
 					syne.variable,
 					brico.variable
 				)}
