@@ -32,10 +32,10 @@ Merci de visiter mon site ! N'hésitez pas à me contacter si vous avez des ques
 
 ### TODO:
 
-- [] Ajout domain to resend
+- [x] Ajout domain to resend
 - [x] SEO
 - [] Portfolio
 - [] Services
 - [x] Sitemap
-- [] Google console
+- [x] Google console
 - []
