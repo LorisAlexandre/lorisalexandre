@@ -33,9 +33,9 @@ Merci de visiter mon site ! N'hésitez pas à me contacter si vous avez des ques
 ### TODO:
 
 - [] Ajout domain to resend
-- [] SEO
+- [x] SEO
 - [] Portfolio
 - [] Services
-- [] Sitemap
+- [x] Sitemap
 - [] Google console
 - []
