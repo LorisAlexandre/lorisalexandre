@@ -29,13 +29,3 @@ Le formulaire de contact est configuré pour envoyer vos messages directement à
 ---
 
 Merci de visiter mon site ! N'hésitez pas à me contacter si vous avez des questions ou des commentaires.
-
-### TODO:
-
-- [x] Ajout domain to resend
-- [x] SEO
-- [] Portfolio
-- [] Services
-- [x] Sitemap
-- [x] Google console
-- []
