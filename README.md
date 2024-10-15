@@ -1,12 +1,12 @@
 # Présentation des fonctionnalités de mon site web
 
-Bienvenue sur mon site web vitrine ! Voici un aperçu des principales fonctionnalités que je propose.
+Bienvenue sur mon site vitrine ! Voici un aperçu des principales fonctionnalités que je propose.
 
 ## Fonctionnalités
 
-### 1. Vitrine Élégante
+### 1. Vitrine
 
-Mon site est conçu pour présenter mes projets et mes compétences de manière élégante et professionnelle. Chaque section est soigneusement conçue pour offrir une expérience utilisateur agréable.
+Mon site est conçu pour présenter mes projets et mes compétences professionnelles. Chaque section est conçue pour offrir une expérience visuelle agréable.
 
 ### 2. Formulaire de Contact
 
